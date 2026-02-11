@@ -1,0 +1,19 @@
+Package: montyhall
+Title: Monty Hall Problem Simulation
+Version: 0.0.0.9100
+Authors@R: 
+    person(given = "Hunter",
+           family = "Miller",
+           role = c("aut", "cre"),
+           email = "hrmille7@asu.edu")
+Description: This package replicates the famous "Monty Hall" problem - 
+    originating with "Let's Make a Deal" - with various bespoke functions 
+    for configuring the game's variables. It charts strategies, allows for 
+    custom numbers of doors, goats, and cars, and it allows for probabilistic 
+    modeling via simulations.
+Depends: 
+    dplyr
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
